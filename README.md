@@ -20,5 +20,16 @@ A large database defined as a single relation may result in data duplication. Th
 
   ## Types of Normal Forms:
 
+  ## Advantages of Normalization
+  - Normalization helps to minimize data redundancy
+  - Data consistency within the database.
+  - Enforces the concept of relational integrity.
+  - Greater overall database organization.
+
+   ## Disadvantages of Normalization
+   - It is very time-consuming and difficult to normalize relations of a higher degree.
+   - The performance degrades when normalizing the relations to higher normal forms, i.e., 4NF, 5NF.
+
+
  ## conclusion
  Failure to eliminate anomalies leads to data redundancy and can cause data integrity and other problems as the database grows.
