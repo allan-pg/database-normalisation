@@ -13,4 +13,12 @@ A large database defined as a single relation may result in data duplication. Th
 - Normalization is used to minimize the redundancy from a relation or set of relations.
 - Normalization is used to eliminate undesirable characteristics like Insertion, Update, and Deletion Anomalies.
 
- 
+ **What is Insertion, Update, and Deletion Anomalies**
+ - **Insertion Anomaly** refers to when one cannot insert a new tuple into a relationship due to lack of data.
+ - **Deletion Anomaly** The delete anomaly refers to the situation where the deletion of data results in the unintended loss of some other important data.
+ - **Updatation Anomaly** The update anomaly is when an update of a single data value requires multiple rows of data to be updated.
+
+  ## Types of Normal Forms:
+
+ ## conclusion
+ Failure to eliminate anomalies leads to data redundancy and can cause data integrity and other problems as the database grows.
