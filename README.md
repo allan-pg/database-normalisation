@@ -20,6 +20,21 @@ A large database defined as a single relation may result in data duplication. Th
 
   ## Types of Normal Forms:
 
+  ### First normal Form
+  A relation is in first normal form if every attribute in that relation is single-valued attribute. If a relation contains a composite or multi-valued attribute, it violates the first normal form.
+   The table below is not in first normal form since courses column is a multivalued attribute
+   
+![q](https://github.com/allan-pg/database-normalisation/assets/62595869/67d6343b-5dc3-4db5-acc1-e8b3fcb7642d)
+
+for it to be in first normal form there is no multi-valued attribute:
+
+![q](https://github.com/allan-pg/database-normalisation/assets/62595869/35078de7-6696-4a18-a1b3-937727a5e3cd)
+
+For a table to be in first normal form:
+- makes sure that there are no recurring groups inside rows.
+- Ensure all of a table’s columns contain atomic values, or indivisible values that is, each column can have only one value for each row in the table.
+- there must be a primary key for identification.
+
   ## Advantages of Normalization
   - Normalization helps to minimize data redundancy
   - Data consistency within the database.
