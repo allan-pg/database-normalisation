@@ -34,6 +34,19 @@ For a table to be in first normal form:
 - makes sure that there are no recurring groups inside rows.
 - Ensure all of a table’s columns contain atomic values, or indivisible values that is, each column can have only one value for each row in the table.
 - there must be a primary key for identification.
+- Field names soud be distinct.
+
+### Second normal form
+The second step is to eliminate redundant data and get into second normal form. If attributes are not dependent on the primary key, place them into a separate entity. 
+
+For a table to be in normal form
+- The table satisfies 1NF (first normal form).
+- Non-primary key attributes depend on all attributes of a composite key.
+
+### Tird Normal Form
+The third normal form applies to a table if
+- The table meets the criteria for 2NF.
+- Each nonprimary key attribute in a row does not depend on the entry in another key column.
 
   ## Advantages of Normalization
   - Normalization helps to minimize data redundancy
