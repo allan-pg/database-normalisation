@@ -4,6 +4,9 @@
 **What is Normalization?**
 Normalization is the process of organizing the data in the database. Normalization divides the larger table into smaller and links them using relationships.
 
+![Capture](https://github.com/allan-pg/database-normalisation/assets/62595869/6360602e-f89b-4e51-b85b-5299e7f7503a)
+
+
 A large database defined as a single relation may result in data duplication. This repetition of data may result in:
 - Wastage and poor utilization of disk space and resources.
 - It makes it difficult to maintain and update data as it would involve searching many records in relation.
@@ -19,6 +22,9 @@ A large database defined as a single relation may result in data duplication. Th
  - **Updatation Anomaly** The update anomaly is when an update of a single data value requires multiple rows of data to be updated.
 
   ## Types of Normal Forms:
+
+  ![q](https://github.com/allan-pg/database-normalisation/assets/62595869/ec10892d-c085-40b2-9d83-09cbf991552a)
+
 
   ### First normal Form
   A relation is in first normal form if every attribute in that relation is single-valued attribute. If a relation contains a composite or multi-valued attribute, it violates the first normal form.
