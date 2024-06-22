@@ -57,10 +57,21 @@ To solve this problem we form two tables one for orders and the other for produc
 
 ![q](https://github.com/allan-pg/database-normalisation/assets/62595869/d711ea69-2c6b-4e02-98c1-def6df406e45)
 
-### Tird Normal Form
+### Third Normal Form
+A relation that is in First and Second Normal Form and in which no non-primary-key attribute is transitively dependent on the primary key, then it is in Third Normal Form (3NF).
 The third normal form applies to a table if
 - The table meets the criteria for 2NF.
 - Each nonprimary key attribute in a row does not depend on the entry in another key column.
+
+ in the employee table below `emp_state` and `emp_city` only depend on `zip_code`
+
+ ![Capture](https://github.com/allan-pg/database-normalisation/assets/62595869/69420b04-6508-4f5d-ab0d-2ef64a05311d)
+
+ to solve This we make two tables one for city and other for employee
+
+ ![q](https://github.com/allan-pg/database-normalisation/assets/62595869/6353d587-a95d-4323-8100-926aadedd191)
+
+
 
   ## Advantages of Normalization
   - Normalization helps to minimize data redundancy
