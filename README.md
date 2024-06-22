@@ -49,6 +49,14 @@ For a table to be in normal form
 - The table satisfies 1NF (first normal form).
 - Non-primary key attributes depend on all attributes of a composite key.
 
+ **orders table** below `order id` is the primary key column owever `product name` and `price` are only dependent on `product id` only and this violates second normal form
+
+ ![Capture](https://github.com/allan-pg/database-normalisation/assets/62595869/39b0c13e-f903-4905-87df-085da6aa4d21)
+
+To solve this problem we form two tables one for orders and the other for products
+
+![q](https://github.com/allan-pg/database-normalisation/assets/62595869/d711ea69-2c6b-4e02-98c1-def6df406e45)
+
 ### Tird Normal Form
 The third normal form applies to a table if
 - The table meets the criteria for 2NF.
