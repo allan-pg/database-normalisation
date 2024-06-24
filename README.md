@@ -71,7 +71,8 @@ The third normal form applies to a table if
 
  ![q](https://github.com/allan-pg/database-normalisation/assets/62595869/6353d587-a95d-4323-8100-926aadedd191)
 
-
+### Boyce–Codd normal form
+BCNF is the advance version of 3NF. It is stricter than 3NF. For BCNF, the table should be in 3NF.
 
   ## Advantages of Normalization
   - Normalization helps to minimize data redundancy
